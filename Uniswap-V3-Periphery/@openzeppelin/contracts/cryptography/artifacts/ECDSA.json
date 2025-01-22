@@ -1,0 +1,63 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220ff013cec4529b3e7d9b7e9fd3366da8fb516643fa19378b7a01e5b818162b29364736f6c63430007060033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SELFDESTRUCT ADD EXTCODECOPY 0xEC GASLIMIT 0x29 0xB3 0xE7 0xD9 0xB7 0xE9 REVERT CALLER PUSH7 0xDA8FB516643FA1 SWAP4 PUSH25 0xB7A01E5B818162B29364736F6C634300070600330000000000 ",
+			"sourceMap": "1546:3633:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220ff013cec4529b3e7d9b7e9fd3366da8fb516643fa19378b7a01e5b818162b29364736f6c63430007060033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SELFDESTRUCT ADD EXTCODECOPY 0xEC GASLIMIT 0x29 0xB3 0xE7 0xD9 0xB7 0xE9 REVERT CALLER PUSH7 0xDA8FB516643FA1 SWAP4 PUSH25 0xB7A01E5B818162B29364736F6C634300070600330000000000 ",
+			"sourceMap": "1546:3633:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"recover(bytes32,bytes memory)": "infinite",
+				"recover(bytes32,uint8,bytes32,bytes32)": "infinite",
+				"toEthSignedMessageHash(bytes32)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
