@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166717875755",
+    "project_id": "device-streaming-3eebe256",
+    "storage_bucket": "device-streaming-3eebe256.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166717875755:android:e3c6f1bd862728578dac6e",
+        "android_client_info": {
+          "package_name": "com.peaceoutpost.online"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNXtFd1KQEtXzpBzyJY5L87Jh96sfuBIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
